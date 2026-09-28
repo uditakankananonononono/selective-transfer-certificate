@@ -23,8 +23,19 @@ class CoreTest(unittest.TestCase):
         self.assertEqual(r.predicted_delta.shape,(3,))
         self.assertTrue(np.isfinite(r.predicted_delta).all())
         self.assertTrue(np.isfinite(r.certificate))
-        with self.assertRaises(ValueError):
-            ridge_corrected_transfer(d[:2],c[:2],np.array([4.,4.,4.]),np.array([12,16]))
+        two = ridge_corrected_transfer(d[:2],c[:2],np.array([4.,4.,4.]),np.array([12,16]))
+        self.assertEqual(two.contexts_used,2)
+
+    def test_frozen_one_context_fallback(self):
+        d=np.array([[1.,2.,3.]])
+        c=np.array([[4.,5.,6.]])
+        r=ridge_corrected_transfer(d,c,np.array([7.,8.,9.]),np.array([10]))
+        np.testing.assert_array_equal(r.predicted_delta,d[0])
+        self.assertEqual(r.certificate,-1.0)
+        self.assertEqual(transfer_certificate(d,np.array([10])),-1.0)
+
+    def test_small_set_abstention_is_zero_and_report_actual_coverage(self):
+        self.assertEqual(retain_at_80_percent(np.array([.2,.1,.3,.0]),['a','b','c','d']).sum(),4)
 
     def test_abstention_exact_when_divisible_by_five(self):
         s=np.array([.2,.1,.4,.7,.8,.9,.5,.6,.3,.0])

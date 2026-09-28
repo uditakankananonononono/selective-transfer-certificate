@@ -20,10 +20,12 @@ def transfer_certificate(deltas: np.ndarray, counts: np.ndarray) -> float:
     """Mean pairwise Pearson across training deltas, shrunk by min(n,2000)/(min(n,2000)+5)."""
     d = np.asarray(deltas, dtype=np.float64)
     n = np.asarray(counts, dtype=np.int64)
-    if d.ndim != 2 or n.shape != (d.shape[0],) or d.shape[0] < 2:
-        raise ValueError('Need >=2 context deltas and one positive cell count per context')
+    if d.ndim != 2 or n.shape != (d.shape[0],) or d.shape[0] < 1:
+        raise ValueError('Need >=1 context delta and one positive cell count per context')
     if not np.isfinite(d).all() or (n <= 0).any():
         raise ValueError('Nonfinite deltas or nonpositive counts')
+    if d.shape[0] == 1:
+        return -1.0  # Frozen v1.1 one-training-context fallback.
     centered = d - d.mean(axis=1, keepdims=True)
     norm = np.linalg.norm(centered, axis=1)
     # Undefined Pearson is not evidence of transfer: lowest possible score.
@@ -50,10 +52,12 @@ def ridge_corrected_transfer(deltas: np.ndarray, controls: np.ndarray,
     n = np.asarray(counts, dtype=np.int64)
     if d.ndim != 2 or c.shape != d.shape or t.shape != (d.shape[1],):
         raise ValueError('Expected context-by-gene arrays and target-control vector')
-    if d.shape[0] < 3:
-        raise ValueError('At least three training contexts required for LOCO ridge')
+    if d.shape[0] < 1:
+        raise ValueError('At least one training context required')
     if not (np.isfinite(d).all() and np.isfinite(c).all() and np.isfinite(t).all()):
         raise ValueError('Nonfinite expression')
+    if d.shape[0] == 1:
+        return TransferResult(d[0].copy(), -1.0, 1, int(n.min()))
     center = c.mean(axis=0)
     x = c - center
     residual = d - (d.sum(axis=0, keepdims=True)-d)/(len(d)-1)
@@ -67,7 +71,7 @@ def ridge_corrected_transfer(deltas: np.ndarray, controls: np.ndarray,
 
 
 def retain_at_80_percent(scores: np.ndarray, keys: list[str]) -> np.ndarray:
-    """Stable rank gate: abstain floor(0.2*n) lowest scores; key tie break."""
+    """Stable rank gate: abstain floor(0.2*n) lowest scores; key includes context and perturbation."""
     s = np.asarray(scores, dtype=np.float64)
     if s.ndim != 1 or len(s) != len(keys) or len(set(keys)) != len(keys):
         raise ValueError('Scores and unique keys required')
