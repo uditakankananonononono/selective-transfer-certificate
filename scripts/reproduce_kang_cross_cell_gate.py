@@ -1,20 +1,44 @@
-import anndata as ad, numpy as np, pandas as pd
+"""Pre-scoring benchmark baseline validation: public kangCrossCell/trainMean ONLY."""
+import argparse
+import anndata as ad
+import numpy as np
+import pandas as pd
 from scipy.stats import pearsonr
-p='/tmp/deep-research/algorithm-invention/perturb-seq-track/tier1-data/kangCrossCell.h5ad'
-a=ad.read_h5ad(p,backed='r')
-obs=a.obs
-X=np.asarray(a.X[:], dtype=np.float32)
-cs=obs.condition1.to_numpy(); stim=(obs.condition2.to_numpy()=='stimulated'); ctl=~stim
-rows=[]
-for context in obs.condition1.unique():
- train_mean=X[(cs!=context)&stim].mean(axis=0,dtype=np.float64)
- treat_mean=X[(cs==context)&stim].mean(axis=0,dtype=np.float64)
- control_mean=X[(cs==context)&ctl].mean(axis=0,dtype=np.float64)
- delta_pred=train_mean-control_mean
- delta_true=treat_mean-control_mean
- corr=float(pearsonr(delta_pred,delta_true).statistic)
- rows.append((context,corr,1-corr, int(((cs==context)&ctl).sum()), int(((cs==context)&stim).sum())))
-f='/tmp/deep-research/algorithm-invention/perturb-seq-track/baseline-refs/cellular_ood_distance5000.csv'
-d=pd.read_csv(f);z=d[(d.DataSet=='kangCrossCell')&(d.method=='trainMean')&(d.metric=='pearson_distance')].set_index('outSample')
-for c,r,dist,nc,nt in rows: print(f'{c:12s} corr={r:.4f} dist={dist:.4f} pinned={z.loc[c,"performance"]:.4f} corr_diff={r-z.loc[c,"performance"]:+.4f} nctl={nc} ntreat={nt}',flush=True)
-print('MEAN CORR',np.mean([x[1] for x in rows]),'MEAN DIST',np.mean([x[2] for x in rows]),'PINNED',z.performance.mean(),flush=True)
+
+
+def validate(dataset, reference):
+    a = ad.read_h5ad(dataset, backed='r')
+    obs = a.obs
+    X = np.asarray(a.X[:], dtype=np.float32)
+    context = obs.condition1.to_numpy()
+    stimulated = obs.condition2.to_numpy() == 'stimulated'
+    rows = []
+    for c in obs.condition1.unique():
+        train = X[(context != c) & stimulated].mean(axis=0, dtype=np.float64)
+        observed = X[(context == c) & stimulated].mean(axis=0, dtype=np.float64)
+        control = X[(context == c) & ~stimulated].mean(axis=0, dtype=np.float64)
+        score = float(pearsonr(train - control, observed - control).statistic)
+        rows.append((c, score))
+    benchmark = pd.read_csv(reference)
+    target = benchmark[(benchmark.DataSet == 'kangCrossCell') &
+                       (benchmark.method == 'trainMean') &
+                       (benchmark.metric == 'pearson_distance') &
+                       (benchmark.DEG == 5000)].set_index('outSample').performance
+    if set(target.index) != {c for c, _ in rows}:
+        raise ValueError('Benchmark context set does not match dataset')
+    for c, score in rows:
+        print(f'{c}: reproduced={score:.6f}; published={target[c]:.6f}; diff={score-target[c]:+.6f}')
+    result = float(np.mean([score for _, score in rows]))
+    diff = abs(result - float(target.mean()))
+    print(f'MEAN reproduced={result:.9f}; published={target.mean():.9f}; abs_diff={diff:.9f}')
+    if diff >= 0.01:
+        raise AssertionError('Frozen pipeline gate FAILED; stop before outcome scoring')
+    print('GATE PASS')
+
+
+if __name__ == '__main__':
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--dataset', required=True, help='kangCrossCell uncompressed h5ad')
+    p.add_argument('--reference', required=True, help='pinned cellular_ood_distance5000.csv')
+    args = p.parse_args()
+    validate(args.dataset, args.reference)
