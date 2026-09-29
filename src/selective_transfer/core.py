@@ -1,4 +1,4 @@
-"""Frozen v1.0 selective cross-context transfer rules; no held-out data access.
+"""Frozen v1.0 core and v1.1 one-context fallback; no held-out data access.
 
 Array axes: rows = training contexts, columns = aligned genes. A perturbation's
 training delta is treated pseudobulk minus matched control pseudobulk. All model
