@@ -16,6 +16,8 @@ def frozen_keys(csv: pd.DataFrame, dataset: str) -> pd.DataFrame:
           (csv.metric=='pearson_distance')&(csv.DEG==5000)]
     if z.empty or z.duplicated(['outSample','perturb']).any():
         raise ValueError('Missing or duplicate frozen evaluation keys')
+    if dataset == 'kangCrossCell':
+        raise ValueError('Contaminated kangCrossCell is forbidden as held-out evaluation')
     return z[['outSample','perturb']].sort_values(['outSample','perturb']).reset_index(drop=True)
 
 

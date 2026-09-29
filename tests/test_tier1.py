@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from scipy import sparse
 from anndata import AnnData
-from selective_transfer.tier1 import grouped_means,predict,score_predictions
+from selective_transfer.tier1 import grouped_means,predict,score_predictions,frozen_keys
 
 class Tier1Test(unittest.TestCase):
     def test_stream_prediction_and_outcome_boundary(self):
@@ -23,6 +23,13 @@ class Tier1Test(unittest.TestCase):
         self.assertEqual(len(scored),1)
         self.assertTrue(np.isfinite(scored.iloc[0].mse))
         self.assertTrue(np.isfinite(scored.iloc[0].pcc_delta))
+
+    def test_contaminated_keys_refused(self):
+        df=pd.DataFrame([{'DataSet':'kangCrossCell','method':'trainMean',
+                          'metric':'pearson_distance','DEG':5000,
+                          'outSample':'A','perturb':'drug'}])
+        with self.assertRaisesRegex(ValueError,'Contaminated'):
+            frozen_keys(df,'kangCrossCell')
 
     def test_single_context_fallback(self):
         means={('A','control'):np.array([1.,2.,3.]),
