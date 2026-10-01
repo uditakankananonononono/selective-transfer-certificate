@@ -1,0 +1,101 @@
+[
+  {
+    "dataset": "Afriat",
+    "prediction_lock": "50ee3ca90910019e7b158b5cd8b51b6de751edf5a360a32a20af5d63c00c95c9",
+    "dataset_sha256": "a17b8a9e90e216dd18027542fc48600ab5da1f90471419cb975aad621dd2897e",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 4
+  },
+  {
+    "dataset": "Haber",
+    "prediction_lock": "8d82b400a6101313f724d8b208dec2adf85e7c9ebcd012a4fe02e939e0a5ebd1",
+    "dataset_sha256": "a94f6f0d99cf09ef5d6ef117c1fe9ce6732006e45994f95c8e5ef44554bf4205",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 24
+  },
+  {
+    "dataset": "KaggleCrossCell",
+    "prediction_lock": "5a17f331043d1dd5b906e495331e46e85158bf178b77e84071023f82bf93a948",
+    "dataset_sha256": "782550adfa22944d6679fc99a81594f34de58ed171a9e5eefb85b39c8d3a63ad",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 24
+  },
+  {
+    "dataset": "KaggleCrossPatient",
+    "prediction_lock": "e3e014af40cb8f43973c0114588d246bd4789d42b1159ed1e58c67a17370668c",
+    "dataset_sha256": "cdde99a496656c0cbeff410668848e9395be01b8959a5ddd30afe9ac593b4ac2",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 30
+  },
+  {
+    "dataset": "McFarland",
+    "prediction_lock": "999d45d76ee8dd53128b895e7cd51f4d70803e961e376b3da654657115f29d84",
+    "dataset_sha256": "fa473b814dd98803f6ede4c64e7c5298eee4fe5f5564c3d4d58e370b2188fd2e",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 42
+  },
+  {
+    "dataset": "Parekh",
+    "prediction_lock": "41c99342874cbfe35a1f5fbaa54ebd3e479f6dbe6da507eb5f0261ef367ac460",
+    "dataset_sha256": "49742ab553c511baa637750d9c152a306483cbcd51d615bef8f921f22061e96a",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 30
+  },
+  {
+    "dataset": "TCDD",
+    "prediction_lock": "86f3fd22040f6bf50953d2d424902b096c5bee3019550ce4574f37a79ed403c7",
+    "dataset_sha256": "2fa726255c309b513b2d4f43ccc2bd403d197de72717d53a018aff92f98111e0",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 6
+  },
+  {
+    "dataset": "crossPatient",
+    "prediction_lock": "0ba7706807963a9c452c2a36e3562deaaf94235c0cc4b9df5a11b12a9979826a",
+    "dataset_sha256": "fbe470449025475e6ea5d53e7fe48cb363fbbf612f842c95e069051e6f747d06",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 10
+  },
+  {
+    "dataset": "crossSpecies",
+    "prediction_lock": "5237380e3469f91d70825e02ec5de73a42c85dbefc3d0a824509001d1f48dcab",
+    "dataset_sha256": "02951a445340a39e7b8d4a840c1bc9a487d02ea98e285b2218b5fc2c62a9dbca",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 4
+  },
+  {
+    "dataset": "kangCrossPatient",
+    "prediction_lock": "4cc56c9ca568faa059837a4c0e58a57bcddeff73d6311c9435e7c6aa95369c51",
+    "dataset_sha256": "ee544fb5543ac0772ab0d9d9c83d7c1442aa6c2c6b148deabc4ac5615388884e",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 8
+  },
+  {
+    "dataset": "sciplex3",
+    "prediction_lock": "884628a74942f2aa1d596042bf7fc8c27bb6f3dc28ceef2c801f27240cb3a155",
+    "dataset_sha256": "f4a14eedeb5189ec4c0ae6b9dcc816db5a01c0cf6b029c52df0d9d47b466be7d",
+    "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+    "source_sha256": "680b202c6250181a49968be31575cb40d6e3b969561a342fdf4670fec155ed3f",
+    "reference_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+    "units": 27
+  }
+]
