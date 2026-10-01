@@ -36,7 +36,7 @@ def run(dataset,path,reference,out):
             predictions.extend(predict(subset,means,counts))
             del means,counts
         lock=make_lock(dataset,keys,predictions,genes,filehash(path),
-                       filehash(root/'PREREG_2026-09-28_SELECTIVE_TRANSFER_v1.1_FROZEN.md'),
+                       hashlib.sha256(''.join(filehash(root/n) for n in ['PREREG_2026-09-28_SELECTIVE_TRANSFER_v1.0_FROZEN.md','PREREG_2026-09-28_SELECTIVE_TRANSFER_v1.1_FROZEN.md','PREREG_2026-10-01_SELECTIVE_TRANSFER_v1.2_FROZEN.md']).encode()).hexdigest(),
                        sourcehash(root))
         lock['reference_sha256']=filehash(reference)
         with open(out,'x') as f:json.dump(lock,f,sort_keys=True,allow_nan=False)
