@@ -1,0 +1,46 @@
+[
+  {
+    "dataset": "Afriat",
+    "prediction_file_sha256": "ed145289f40c81248779346e5ed53f846b9ec34c5b07630cdb733cacb397e398"
+  },
+  {
+    "dataset": "Haber",
+    "prediction_file_sha256": "21648b97ecf328edd4848c4eca52ce7fb488cff5c815f49217760b26b43aec13"
+  },
+  {
+    "dataset": "KaggleCrossCell",
+    "prediction_file_sha256": "df6857232a5bb835e24cb59fc16d305a4b899fd3375033357cdcddfc1f76cf20"
+  },
+  {
+    "dataset": "KaggleCrossPatient",
+    "prediction_file_sha256": "134d1a5844055f806c34a860e797ee8824a5e4dcdb2965d826e6440f7dce2477"
+  },
+  {
+    "dataset": "McFarland",
+    "prediction_file_sha256": "9b57eee45dc6c59b08e1a17f31db7c40933308715418a8e4eacb4e34bb165a93"
+  },
+  {
+    "dataset": "Parekh",
+    "prediction_file_sha256": "13fb52b1a41e9a8e102e6aa5c79fe7a5d9470f7235ecbe6bd0b38e10353d3c13"
+  },
+  {
+    "dataset": "TCDD",
+    "prediction_file_sha256": "943af9a53eda903ee63ebf2f9972ae48ab208fbdaee34decb5e4add03126903d"
+  },
+  {
+    "dataset": "crossPatient",
+    "prediction_file_sha256": "1ed8f4a836760091a8b30864bb5c3abec22a2baefecca99b4a65f3ad92fd627d"
+  },
+  {
+    "dataset": "crossSpecies",
+    "prediction_file_sha256": "82bc3813d5af508010c8f56bb964918e3026e3c90173cf6ee27708d96caeae7a"
+  },
+  {
+    "dataset": "kangCrossPatient",
+    "prediction_file_sha256": "b6b5f368fb2bcaddf923d7bc1fe6f46b837dcf2b4b31c258a43b1430c24f775f"
+  },
+  {
+    "dataset": "sciplex3",
+    "prediction_file_sha256": "2c4391068f41138485af296b6432e50febc83d7cc62a88548019e40c057fd64a"
+  }
+]

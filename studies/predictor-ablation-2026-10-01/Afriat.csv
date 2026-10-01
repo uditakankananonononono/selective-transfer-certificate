@@ -1,0 +1,13 @@
+dataset,context,perturbation,pcc_delta,mse,certificate,training_contexts,predictor
+Afriat,Pericentral,Infected,0.7405,0.0136,0.0,1,analytic_trainMean
+Afriat,Pericentral,Uninfected,0.681,0.0156,0.0,1,analytic_trainMean
+Afriat,Periportal,Infected,0.7031,0.0136,0.0,1,analytic_trainMean
+Afriat,Periportal,Uninfected,0.629,0.0156,0.0,1,analytic_trainMean
+Afriat,Pericentral,Infected,0.9418,0.0018,0.0,1,meanDelta
+Afriat,Pericentral,Uninfected,0.9484,0.0014,0.0,1,meanDelta
+Afriat,Periportal,Infected,0.9418,0.0018,0.0,1,meanDelta
+Afriat,Periportal,Uninfected,0.9484,0.0014,0.0,1,meanDelta
+Afriat,Pericentral,Infected,0.9418,0.0018,-1.0,1,frozen_ridge
+Afriat,Pericentral,Uninfected,0.9484,0.0014,-1.0,1,frozen_ridge
+Afriat,Periportal,Infected,0.9418,0.0018,-1.0,1,frozen_ridge
+Afriat,Periportal,Uninfected,0.9484,0.0014,-1.0,1,frozen_ridge

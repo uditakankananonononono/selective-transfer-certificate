@@ -1,0 +1,13 @@
+dataset,context,perturbation,pcc_delta,mse,certificate,training_contexts,predictor
+crossSpecies,mouse,LPS,0.395,0.1127,0.0,3,analytic_trainMean
+crossSpecies,pig,LPS,0.3587,0.1229,0.0,3,analytic_trainMean
+crossSpecies,rabbit,LPS,0.218,0.1314,0.0,3,analytic_trainMean
+crossSpecies,rat,LPS,0.3902,0.1,0.0,3,analytic_trainMean
+crossSpecies,mouse,LPS,0.6257,0.041,0.0,3,meanDelta
+crossSpecies,pig,LPS,0.548,0.0304,0.0,3,meanDelta
+crossSpecies,rabbit,LPS,0.4549,0.0338,0.0,3,meanDelta
+crossSpecies,rat,LPS,0.612,0.0245,0.0,3,meanDelta
+crossSpecies,mouse,LPS,0.5816,0.0452,0.3924327864960797,3,frozen_ridge
+crossSpecies,pig,LPS,0.5526,0.0315,0.4382207393591965,3,frozen_ridge
+crossSpecies,rabbit,LPS,0.4458,0.0351,0.5039738043912191,3,frozen_ridge
+crossSpecies,rat,LPS,0.6084,0.0281,0.4133767971998385,3,frozen_ridge

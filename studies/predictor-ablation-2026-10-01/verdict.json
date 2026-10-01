@@ -1,0 +1,35 @@
+[
+  {
+    "predictor": "analytic_trainMean",
+    "datasets_full_pass": 5,
+    "baseline_macro_risk": 0.5394368205868207,
+    "method_macro_risk": 0.5490479617604618,
+    "relative_risk_reduction": -0.017816991363670088,
+    "full_clause_pass": false,
+    "risk_clause_pass": false,
+    "development_combined_pass": false,
+    "independent_invention_win": false
+  },
+  {
+    "predictor": "frozen_ridge",
+    "datasets_full_pass": 8,
+    "baseline_macro_risk": 0.5394368205868207,
+    "method_macro_risk": 0.4041976022126022,
+    "relative_risk_reduction": 0.2507044629009565,
+    "full_clause_pass": false,
+    "risk_clause_pass": true,
+    "development_combined_pass": false,
+    "independent_invention_win": false
+  },
+  {
+    "predictor": "meanDelta",
+    "datasets_full_pass": 7,
+    "baseline_macro_risk": 0.5394368205868207,
+    "method_macro_risk": 0.4227264682539682,
+    "relative_risk_reduction": 0.21635592506623927,
+    "full_clause_pass": false,
+    "risk_clause_pass": true,
+    "development_combined_pass": false,
+    "independent_invention_win": false
+  }
+]

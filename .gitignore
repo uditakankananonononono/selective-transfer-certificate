@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 *.h5ad
 *.h5ad.gz
+
+# Predictor ablation scratch vectors
+studies/predictor-ablation-2026-10-01/*-predictions.json
