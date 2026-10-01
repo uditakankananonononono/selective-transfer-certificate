@@ -1,0 +1,7 @@
+{
+  "design_sha256": "5940bcc0be81c7668b92e92fb9a4658e05f18791ae208e416ece16b0210085f2",
+  "method_scores_sha256": "d29e42843164337782c89080ad99387734e62e380d3407a2973234e0badc7185",
+  "baseline_artifact_sha256": "1c2794c1dc21e496c143d8b897f310663a5f2f0ec632cbc7a867bb590a3c4117",
+  "tests_passed": 31,
+  "independent_audit": "passed: masks, exact keys, locked certificates, composition sums, macro arithmetic"
+}

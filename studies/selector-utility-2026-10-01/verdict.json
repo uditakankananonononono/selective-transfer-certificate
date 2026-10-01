@@ -1,0 +1,14 @@
+{
+  "design": "known-outcome development, finite benchmark panel only",
+  "datasets": 11,
+  "units": 209,
+  "selector_identifiable_datasets": 9,
+  "random_expected_macro_method_risk": 0.4041976022126022,
+  "retained_macro_method_risk": 0.38704701159802757,
+  "matched_mask_macro_baseline_risk": 0.5278263996921082,
+  "relative_selector_risk_reduction": 0.04243120325477257,
+  "clause_A_pass": false,
+  "clause_B_pass": true,
+  "descriptive_combined_pass": false,
+  "independent_invention_win": false
+}
