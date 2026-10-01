@@ -34,3 +34,10 @@ Tier-2 remains parked due to the two-development-line calibration limitation; it
 Publication independently verified by remote fetch at 6027b43611a1cc34cd4c75093cf971ed188c59ef before scoring, with all 21 protocol/source/ledger/lock blobs checked. publication_receipt.json records those facts. The receipt is provenance, not permission.
 
 Sources: https://github.com/uditakankananonononono/selective-transfer-certificate ; https://github.com/bm2-lab/scPerturBench/tree/698f8ff5ed19530bff171e4205be9b42a46a769d/Results/Cellular_context_ood ; https://api.figshare.com/v2/articles/28143422
+
+## Novelty correction
+
+The original novelty pass missed PRESCRIBE's uncertainty-guided filtering and
+GPerturb's Bayesian effect uncertainty. Confidence filtering per se is not a new
+invention. See docs/PRIOR_ART_CORRECTION_2026-10-01.md. The exact donor-transfer
+statistic/controlled follow-up remains unproven as a novel contribution.
