@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/uditakankananonononono/selective-transfer-certificate",
+  "live_verified_commit": "6027b43611a1cc34cd4c75093cf971ed188c59ef",
+  "verified_at": "2026-10-01T12:29:28.037112+05:30",
+  "protocol_sha256": "69e25670974aecb62e13f77a3bea90c87511c684d6a2bb329450cb987313e385",
+  "prediction_locks": {
+    "Afriat": "50ee3ca90910019e7b158b5cd8b51b6de751edf5a360a32a20af5d63c00c95c9",
+    "Haber": "8d82b400a6101313f724d8b208dec2adf85e7c9ebcd012a4fe02e939e0a5ebd1",
+    "KaggleCrossCell": "5a17f331043d1dd5b906e495331e46e85158bf178b77e84071023f82bf93a948",
+    "KaggleCrossPatient": "e3e014af40cb8f43973c0114588d246bd4789d42b1159ed1e58c67a17370668c",
+    "McFarland": "999d45d76ee8dd53128b895e7cd51f4d70803e961e376b3da654657115f29d84",
+    "Parekh": "41c99342874cbfe35a1f5fbaa54ebd3e479f6dbe6da507eb5f0261ef367ac460",
+    "TCDD": "86f3fd22040f6bf50953d2d424902b096c5bee3019550ce4574f37a79ed403c7",
+    "crossPatient": "0ba7706807963a9c452c2a36e3562deaaf94235c0cc4b9df5a11b12a9979826a",
+    "crossSpecies": "5237380e3469f91d70825e02ec5de73a42c85dbefc3d0a824509001d1f48dcab",
+    "kangCrossPatient": "4cc56c9ca568faa059837a4c0e58a57bcddeff73d6311c9435e7c6aa95369c51",
+    "sciplex3": "884628a74942f2aa1d596042bf7fc8c27bb6f3dc28ceef2c801f27240cb3a155"
+  }
+}

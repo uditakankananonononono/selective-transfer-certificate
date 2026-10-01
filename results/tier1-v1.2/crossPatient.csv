@@ -1,0 +1,11 @@
+dataset,context,perturbation,pcc_delta,mse,certificate,training_contexts
+crossPatient,PW029,Etoposide,0.1012,0.0071,-0.0941941212108479,4
+crossPatient,PW030,Etoposide,-0.1312,0.0073,-0.00031196681132030456,4
+crossPatient,PW030,Panobinostat,0.633,0.0076,0.30529321369199347,4
+crossPatient,PW032,Etoposide,-0.1184,0.0043,-0.09055171484855888,4
+crossPatient,PW032,Panobinostat,0.5574,0.0085,0.36143387779065445,4
+crossPatient,PW034,Etoposide,0.3279,0.0027,-0.16380633971637937,4
+crossPatient,PW034,Panobinostat,0.4221,0.0042,0.36392483211554777,4
+crossPatient,PW036,Etoposide,-0.1693,0.0034,-0.06864941699275985,4
+crossPatient,PW036,Panobinostat,0.6158,0.0024,0.2821908596213046,4
+crossPatient,PW040,Panobinostat,0.3878,0.0037,0.4183474428906649,4

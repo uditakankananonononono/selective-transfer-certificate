@@ -1,0 +1,8 @@
+{
+  "all_full_pass": false,
+  "baseline_macro_risk": 0.5394368205868207,
+  "method_macro_risk": 0.38704701159802757,
+  "relative_risk_reduction": 0.28249797413350003,
+  "risk_pass": true,
+  "overall_win": false
+}

@@ -1,0 +1,7 @@
+dataset,context,perturbation,pcc_delta,mse,certificate,training_contexts
+TCDD,Cholangiocytes,TCDD,0.658,0.0064,0.5742119935887728,5
+TCDD,EndothelialCells,TCDD,0.7214,0.0022,0.5476607136997581,5
+TCDD,HepatocytesCentral,TCDD,0.8404,0.0034,0.5259247270726115,5
+TCDD,HepatocytesPortal,TCDD,0.8469,0.0015,0.532767380295988,5
+TCDD,PortalFibroblasts,TCDD,0.5394,0.0042,0.6244540663705839,5
+TCDD,StellateCells,TCDD,0.5986,0.0032,0.5763113812307692,5

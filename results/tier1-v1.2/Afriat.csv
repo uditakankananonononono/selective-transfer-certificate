@@ -1,0 +1,5 @@
+dataset,context,perturbation,pcc_delta,mse,certificate,training_contexts
+Afriat,Pericentral,Infected,0.9418,0.0018,-1.0,1
+Afriat,Pericentral,Uninfected,0.9484,0.0014,-1.0,1
+Afriat,Periportal,Infected,0.9418,0.0018,-1.0,1
+Afriat,Periportal,Uninfected,0.9484,0.0014,-1.0,1
