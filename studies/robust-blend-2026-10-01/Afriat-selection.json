@@ -1,0 +1,66 @@
+[
+  {
+    "context": "Pericentral",
+    "perturbation": "Infected",
+    "training_context_ids": [
+      "Periportal"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pericentral",
+    "perturbation": "Uninfected",
+    "training_context_ids": [
+      "Periportal"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Periportal",
+    "perturbation": "Infected",
+    "training_context_ids": [
+      "Pericentral"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Periportal",
+    "perturbation": "Uninfected",
+    "training_context_ids": [
+      "Pericentral"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  }
+]

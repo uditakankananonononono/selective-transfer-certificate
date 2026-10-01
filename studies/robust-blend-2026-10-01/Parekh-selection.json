@@ -1,0 +1,512 @@
+[
+  {
+    "context": "endothelial",
+    "perturbation": "ASCL3",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "endothelial",
+    "perturbation": "CDX2",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "endothelial",
+    "perturbation": "FOXP1",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "endothelial",
+    "perturbation": "HAND2",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "endothelial",
+    "perturbation": "HOXA10",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "endothelial",
+    "perturbation": "KLF4",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "endothelial",
+    "perturbation": "LMX1A",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "endothelial",
+    "perturbation": "MYOG",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "endothelial",
+    "perturbation": "SNAI2",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "endothelial",
+    "perturbation": "SPI1",
+    "training_context_ids": [
+      "hPSC",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "ASCL3",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "CDX2",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "FOXP1",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "HAND2",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "HOXA10",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "KLF4",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "LMX1A",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "MYOG",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "SNAI2",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "hPSC",
+    "perturbation": "SPI1",
+    "training_context_ids": [
+      "endothelial",
+      "multilineage"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "ASCL3",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "CDX2",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "FOXP1",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "HAND2",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "HOXA10",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "KLF4",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "LMX1A",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "MYOG",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "SNAI2",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "multilineage",
+    "perturbation": "SPI1",
+    "training_context_ids": [
+      "endothelial",
+      "hPSC"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  }
+]

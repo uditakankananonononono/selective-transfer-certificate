@@ -5,3 +5,6 @@ __pycache__/
 
 # Predictor ablation scratch vectors
 studies/predictor-ablation-2026-10-01/*-predictions.json
+
+# Robust blend scratch vectors
+studies/robust-blend-2026-10-01/*-predictions.json

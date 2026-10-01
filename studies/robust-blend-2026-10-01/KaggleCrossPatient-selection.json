@@ -1,0 +1,512 @@
+[
+  {
+    "context": "Pat0",
+    "perturbation": "AT13387",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat0",
+    "perturbation": "CEP18770",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat0",
+    "perturbation": "CHIR99021",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat0",
+    "perturbation": "Ganetespib",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat0",
+    "perturbation": "LDN",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat0",
+    "perturbation": "Linagliptin",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat0",
+    "perturbation": "MLN",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat0",
+    "perturbation": "Oprozomib",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat0",
+    "perturbation": "Palbociclib",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat0",
+    "perturbation": "Penfluridol",
+    "training_context_ids": [
+      "Pat1",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "AT13387",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "CEP18770",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "CHIR99021",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "Ganetespib",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "LDN",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "Linagliptin",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "MLN",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "Oprozomib",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "Palbociclib",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat1",
+    "perturbation": "Penfluridol",
+    "training_context_ids": [
+      "Pat0",
+      "Pat2"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "AT13387",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "CEP18770",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "CHIR99021",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "Ganetespib",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "LDN",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "Linagliptin",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "MLN",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "Oprozomib",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "Palbociclib",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Pat2",
+    "perturbation": "Penfluridol",
+    "training_context_ids": [
+      "Pat0",
+      "Pat1"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  }
+]

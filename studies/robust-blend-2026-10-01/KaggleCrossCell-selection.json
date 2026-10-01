@@ -1,0 +1,398 @@
+[
+  {
+    "context": "CD4",
+    "perturbation": "AT13387",
+    "training_context_ids": [
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD4",
+    "perturbation": "CEP18770",
+    "training_context_ids": [
+      "CD8"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD4",
+    "perturbation": "CHIR99021",
+    "training_context_ids": [
+      "Myeloid",
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD4",
+    "perturbation": "Ganetespib",
+    "training_context_ids": [
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD4",
+    "perturbation": "LDN",
+    "training_context_ids": [
+      "Myeloid",
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD4",
+    "perturbation": "Linagliptin",
+    "training_context_ids": [
+      "Myeloid",
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD4",
+    "perturbation": "MLN",
+    "training_context_ids": [
+      "CD8"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD4",
+    "perturbation": "Oprozomib",
+    "training_context_ids": [
+      "Treg"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD4",
+    "perturbation": "Palbociclib",
+    "training_context_ids": [
+      "Myeloid",
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD4",
+    "perturbation": "Penfluridol",
+    "training_context_ids": [
+      "Myeloid"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD8",
+    "perturbation": "CEP18770",
+    "training_context_ids": [
+      "CD4"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "CD8",
+    "perturbation": "MLN",
+    "training_context_ids": [
+      "CD4"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Myeloid",
+    "perturbation": "CHIR99021",
+    "training_context_ids": [
+      "CD4",
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Myeloid",
+    "perturbation": "LDN",
+    "training_context_ids": [
+      "CD4",
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Myeloid",
+    "perturbation": "Linagliptin",
+    "training_context_ids": [
+      "CD4",
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Myeloid",
+    "perturbation": "Palbociclib",
+    "training_context_ids": [
+      "CD4",
+      "NK"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Myeloid",
+    "perturbation": "Penfluridol",
+    "training_context_ids": [
+      "CD4"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "NK",
+    "perturbation": "AT13387",
+    "training_context_ids": [
+      "CD4"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "NK",
+    "perturbation": "CHIR99021",
+    "training_context_ids": [
+      "CD4",
+      "Myeloid"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "NK",
+    "perturbation": "Ganetespib",
+    "training_context_ids": [
+      "CD4"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "NK",
+    "perturbation": "LDN",
+    "training_context_ids": [
+      "CD4",
+      "Myeloid"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "NK",
+    "perturbation": "Linagliptin",
+    "training_context_ids": [
+      "CD4",
+      "Myeloid"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "NK",
+    "perturbation": "Palbociclib",
+    "training_context_ids": [
+      "CD4",
+      "Myeloid"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "Treg",
+    "perturbation": "Oprozomib",
+    "training_context_ids": [
+      "CD4"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 1,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  }
+]

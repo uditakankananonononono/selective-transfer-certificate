@@ -1,0 +1,461 @@
+[
+  {
+    "context": "A549",
+    "perturbation": "Alvespimycin",
+    "training_context_ids": [
+      "K562",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "A549",
+    "perturbation": "Belinostat",
+    "training_context_ids": [
+      "K562",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "A549",
+    "perturbation": "Dacinostat",
+    "training_context_ids": [
+      "K562",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "A549",
+    "perturbation": "Flavopiridol",
+    "training_context_ids": [
+      "K562",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "A549",
+    "perturbation": "Givinostat",
+    "training_context_ids": [
+      "K562",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "A549",
+    "perturbation": "Hesperadin",
+    "training_context_ids": [
+      "K562",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "A549",
+    "perturbation": "Quisinostat",
+    "training_context_ids": [
+      "K562",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "A549",
+    "perturbation": "TAK901",
+    "training_context_ids": [
+      "K562",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "A549",
+    "perturbation": "Tanespimycin",
+    "training_context_ids": [
+      "K562",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "K562",
+    "perturbation": "Alvespimycin",
+    "training_context_ids": [
+      "A549",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "K562",
+    "perturbation": "Belinostat",
+    "training_context_ids": [
+      "A549",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "K562",
+    "perturbation": "Dacinostat",
+    "training_context_ids": [
+      "A549",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "K562",
+    "perturbation": "Flavopiridol",
+    "training_context_ids": [
+      "A549",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "K562",
+    "perturbation": "Givinostat",
+    "training_context_ids": [
+      "A549",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "K562",
+    "perturbation": "Hesperadin",
+    "training_context_ids": [
+      "A549",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "K562",
+    "perturbation": "Quisinostat",
+    "training_context_ids": [
+      "A549",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "K562",
+    "perturbation": "TAK901",
+    "training_context_ids": [
+      "A549",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "K562",
+    "perturbation": "Tanespimycin",
+    "training_context_ids": [
+      "A549",
+      "MCF7"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "MCF7",
+    "perturbation": "Alvespimycin",
+    "training_context_ids": [
+      "A549",
+      "K562"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "MCF7",
+    "perturbation": "Belinostat",
+    "training_context_ids": [
+      "A549",
+      "K562"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "MCF7",
+    "perturbation": "Dacinostat",
+    "training_context_ids": [
+      "A549",
+      "K562"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "MCF7",
+    "perturbation": "Flavopiridol",
+    "training_context_ids": [
+      "A549",
+      "K562"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "MCF7",
+    "perturbation": "Givinostat",
+    "training_context_ids": [
+      "A549",
+      "K562"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "MCF7",
+    "perturbation": "Hesperadin",
+    "training_context_ids": [
+      "A549",
+      "K562"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "MCF7",
+    "perturbation": "Quisinostat",
+    "training_context_ids": [
+      "A549",
+      "K562"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "MCF7",
+    "perturbation": "TAK901",
+    "training_context_ids": [
+      "A549",
+      "K562"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  },
+  {
+    "context": "MCF7",
+    "perturbation": "Tanespimycin",
+    "training_context_ids": [
+      "A549",
+      "K562"
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "fallback": true,
+    "training_contexts": 2,
+    "worst_training_pcc": null,
+    "mean_training_pcc": null
+  }
+]

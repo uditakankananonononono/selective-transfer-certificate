@@ -1,0 +1,17 @@
+{
+  "design": "known-outcome development consistency diagnostic, no novelty claim",
+  "units": 209,
+  "datasets": 11,
+  "full_pass_count": 9,
+  "full_clause_pass": false,
+  "baseline_macro_risk": 0.5394368205868207,
+  "method_macro_risk": 0.39443589225589226,
+  "relative_risk_reduction": 0.2688005764478419,
+  "risk_clause_pass": true,
+  "crossPatient_rescue": true,
+  "no_harm_vs_ridge": false,
+  "no_harm_pass_count": 9,
+  "fallback_units": 126,
+  "diagnostic_pass": false,
+  "independent_invention_win": false
+}
