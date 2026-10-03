@@ -20,3 +20,15 @@ Overall: LOSS. Both clauses fail. This is an independent pre-outcome result on d
 The cosine certificate (>0.2 vs leave-self-out donor mean) chooses donors that fit worse than the full donor mean on held-out lines.
 Averaging more donors beats averaging a cosine-filtered subset here, consistent with variance reduction dominating relevance here. No invention claim.
 Limitation: nested batch-lineage design, 90 genes only, essential-gene KOs with strong shared responses.
+
+---
+## Sealed h2h replicate (Addendum 2, live at 5bf8c22 before any h2h expression was read)
+Scored once: 20 units (UMRC3, KMRC20 x 10 genes: MDM2, MTOR, MTPAP, MYC, PSMA1, SEC23IP, SMG6, TFRC, TXN, TYMS); PELO and VPS4A skipped (0 donors); 8 identifiable units.
+- Clause A (descriptive): M 0.002230 vs matched-K random 0.002454, relative reduction +9.1% (below the 10% bar; direction opposite to the main screen, but 8 units in 2 lines, no CI).
+- Clause B: M 0.008297 vs all-donor mean 0.008252, M worse (UMRC3 0.010627 vs 0.010605; KMRC20 0.005967 vs 0.005899).
+- Pre-registered reading: "confirms" (both clauses fail). Small-n; the A sign flip is noted, not claimed.
+Disclosures: h2h loader needed one pandas dtype fix before it ran (no values read); Dup_* guide columns excluded from controls and KOs per addendum 2; the scorer tidy before the main score is listed above.
+
+## Closure: donor-selector direction (cosine-certificate retention)
+Measured negative on two independent datasets: DepMap pilot main screen (-6.35% vs matched-K random, CI [-10.2%,-3.5%]; worse than all-donor mean on 16/16 lines) and the sealed deep rescreen (+9.1% descriptive, below 10%; M not better than B). Earlier Tier-1 selector-utility isolated gain was 4.24%, also below 10%.
+Evidence commits (live chain): 966d54a pilot result, 3eaddeb code+tests, 5bf8c22 addendum 2. No invention claim for the cosine donor selector.
