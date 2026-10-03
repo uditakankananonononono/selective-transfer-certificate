@@ -30,8 +30,8 @@ def run(line):
     allc = {}; ptot = {}; pmito = {}
     for pas in (1, 2):
         acc = {}; cnt = {}
-        for ch in pd.read_csv(f'{tmp}/{gp}', index_col=0, chunksize=400, dtype=np.float32):
-            v = ch.values; t = v.sum(1)
+        for ch in pd.read_csv(f'{tmp}/{gp}', index_col=0, chunksize=400):
+            v = ch.values.astype(np.float32); t = v.sum(1)
             if pas == 1:
                 for b, tt, mm in zip(ch.index, t, v[:, mtc].sum(1) / np.maximum(t, 1)): ptot[b] = tt; pmito[b] = mm
             else:
